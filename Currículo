@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo | Ilary Cardoso Mota</title>
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            background: #ffffff;
+            margin: 40px auto;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 5px;
+            font-size: 36px;
+        }
+        .subtitle {
+            letter-spacing: 2px;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .contact {
+            text-align: right;
+            font-size: 14px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #000;
+            margin: 20px 0;
+        }
+        h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .two-columns {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .column {
+            width: 48%;
+        }
+        .experience-title {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .contact { text-align: left; margin-top: 15px; }
+            .column { width: 100%; }
+            .experience-title { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div>
+            <h1>Ilary Cardoso Mota</h1>
+            <div class="subtitle">NOME SOCIAL: LUA</div>
+        </div>
+        <div class="contact">
+            📞 (77) 98106-8811<br>
+            📍 Vitória da Conquista - BA<br>
+            ✉️ luamotta27@gmail.com
+        </div>
+    </div>
+    <hr>
+    <h2>Objetivo</h2>
+    <p>
+        Integrar uma equipe como estagiária de Psicologia, contribuindo no acompanhamento psicológico
+        de crianças atípicas e promovendo seu desenvolvimento socioemocional e cognitivo. Quero aplicar
+        minhas habilidades de empatia, escuta ativa e responsabilidade adquiridas na formação acadêmica
+        e nas experiências práticas.
+    </p>
+    <h2>Formação Acadêmica</h2>
+    <p>
+        <strong>Curso:</strong> Psicologia<br>
+        <strong>Instituição:</strong> Fainor – Faculdade Independente do Nordeste<br>
+        <strong>Semestre:</strong> 7º<br>
+        <strong>Previsão de Conclusão:</strong> 2026.2
+    </p>
+    <p><strong>Disciplinas Relevantes Concluídas:</strong></p>
+    <div class="two-columns">
+        <ul class="column">
+            <li>Desenvolvimento Humano I e II</li>
+            <li>Psicologias e Pessoas com Deficiência</li>
+            <li>Psicologia da Aprendizagem e da Educação</li>
+            <li>Estágio Básico: Intervenções em Saúde Mental</li>
+        </ul>
+        <ul class="column">
+            <li>Técnicas de Exame Psicológico I e II</li>
+            <li>Neuroanatomia e Neurofisiologia</li>
+            <li>Psicopatologia I</li>
+            <li>Projeto Integrador IV: Processos Educativos e Inclusão Social</li>
+        </ul>
+    </div>
+    <h2>Experiência</h2>
+    <div class="experience-title">
+        <span>Organização de Eventos Acadêmicos</span>
+        <span>2024</span>
+    </div>
+    <ul>
+        <li>Planejamento e execução de semanas temáticas sobre desenvolvimento humano e inclusão.</li>
+        <li>Fortalecimento de habilidades de organização e trabalho em equipe.</li>
+    </ul>
+    <div class="experience-title">
+        <span>Ações no CRAS</span>
+        <span>2023</span>
+    </div>
+    <ul>
+        <li>Auxílio em atividades recreativas e educativas para crianças com diferentes necessidades.</li>
+        <li>Promoção de vínculos afetivos e desenvolvimento socioemocional.</li>
+    </ul>
+    <div class="two-columns">
+        <div class="column">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Comunicação clara e escuta ativa</li>
+                <li>Organização e responsabilidade em tarefas</li>
+                <li>Facilidade para trabalho em equipe e resolução de conflitos</li>
+                <li>Interesse e sensibilidade para trabalhar com crianças atípicas</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Atividades Complementares</h2>
+            <ul>
+                <li>Curso Básico na Jornada Inédita de Inclusão do TEA na Adolescência e na Vida Adulta (2024).</li>
+                <li>Apresentação no Estágio Básico Intervenções em Saúde Mental – FAINOR (2024).</li>
+                <li>Participação na Semana Regional do Cérebro – UFT (2024).</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
